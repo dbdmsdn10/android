@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F87171"
+    android:padding="20sp"
+    >
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/likedie"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/img"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="유은우"
+        android:textSize="30sp"
+        android:layout_marginLeft="20sp"
+        android:layout_toRightOf="@id/img"/>
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/name"
+        android:textSize="20sp"
+        android:text="010-4657-****"
+        android:layout_marginLeft="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="죽는 날까지 한전 부끄러움이 없기를 잎애에 이는 바람에도 나는 괴로워 했다"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:layout_below="@id/name"
+        android:layout_alignLeft="@id/name"
+        android:layout_alignBottom="@id/btn3"
+        />
+
+</RelativeLayout>

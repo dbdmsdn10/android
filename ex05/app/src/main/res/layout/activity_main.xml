@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20sp">
+
+        <EditText
+            android:id="@+id/first"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="숫자를 입력하시오"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/second"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="숫자를 입력하시오"
+            android:inputType="number"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20sp">
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:text="더하기"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:onClick="doit"/>
+
+        <Button
+            android:id="@+id/miner"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:text="빼기"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:onClick="doit"/>
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:text="곱하기"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:onClick="doit"/>
+
+        <Button
+            android:id="@+id/nanu"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10sp"
+            android:text="나누기"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:onClick="doit"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
