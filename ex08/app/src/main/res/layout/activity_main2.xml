@@ -6,8 +6,18 @@
     android:orientation="vertical"
     >
     <Button
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="서브메뉴"/>
+        android:text="서브메뉴"
+        android:textSize="50px"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="서브2"
+        android:textSize="50px"
+        />
 
 </LinearLayout>
