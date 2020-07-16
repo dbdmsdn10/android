@@ -109,7 +109,6 @@ public class Main2Activity extends AppCompatActivity {
         return super.onContextItemSelected(item);
     }
 
-
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {//메뉴버튼 누를시
         if (btn.getTextSize() == 100) {
