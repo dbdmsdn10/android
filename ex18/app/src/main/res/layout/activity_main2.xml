@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="horizontal"
+    >
+    <fragment
+        android:id="@+id/frame"
+        android:name="com.example.ex18.wordlist"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="#FF7272"
+        />
+</LinearLayout>
