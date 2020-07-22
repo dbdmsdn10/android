@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/btnone"
+    android:title="1번"
+    app:showAsAction="never"
+    />
+    <item
+        android:id="@+id/btntwo"
+        android:title="2번"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_launcher_background"
+        />
+    <item
+        android:id="@+id/btnthree"
+        android:title="3번"
+        app:showAsAction="never"
+        /><item
+    android:id="@+id/btnfour"
+    android:title="4번"
+    app:showAsAction="never"
+    />
+    <item
+        android:id="@+id/btnfive"
+        android:title="5번"
+        app:showAsAction="never"
+        />
+
+
+</menu>
