@@ -38,7 +38,7 @@
         android:layout_below="@id/nametxt"
             />
     <ImageView
-        android:id="@+id/edibtn"
+        android:id="@+id/editbtn"
         android:layout_width="30sp"
         android:layout_height="30sp"
         android:src="@drawable/editimg"

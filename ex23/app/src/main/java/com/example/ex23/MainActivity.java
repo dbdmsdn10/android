@@ -113,6 +113,15 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+            view.findViewById(R.id.editbtn).setOnClickListener(new Button.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(MainActivity.this, Addactivity.class);
+                    intent.putExtra("id",id);
+                    startActivityForResult(intent, 1);
+                }
+            });
+
         }
     }
 
